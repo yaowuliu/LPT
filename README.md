@@ -32,7 +32,7 @@ Z <- rnorm(n) # covariates
 Y = Z*1.2+rnorm(n)
 Y_res = lm(Y~Z)$residuals
 
-# Transform phenotype using the proposed LPT method
+# Transform the residuals of phenotypes using the proposed LPT method
 Y_trans = LPT(Y_res)
 
 # Fit null model (without genetic variants)
