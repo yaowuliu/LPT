@@ -1,0 +1,3 @@
+useDynLib(LPT, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+exportPattern(LPT)

@@ -1,0 +1,12 @@
+Package: LPT
+Type: Package
+Title: Locally Powerful Transformation (LPT) for quantitative responses in linear regression models.
+Version: 0.8
+Date: 2025-07-24
+Author: Yaowu Liu and Tianying Wang
+Maintainer: Yaowu Liu <yaowuliu615@gmail.com>, Tianying Wang <Tianying.Wang@colostate.edu>
+Description: LPT provides a novel transformation method that leverages the information of error density to achieve locally most powerful tests for genetic variant association testing. This transformation is particularly powerful for detecting weak genetic signals and is computationally efficient for large-scale biobank data.
+License: GPL (>= 2)
+Imports: Rcpp (>= 1.0.13)
+LinkingTo: Rcpp
+RoxygenNote: 7.2.3
